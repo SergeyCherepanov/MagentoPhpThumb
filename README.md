@@ -1,0 +1,4 @@
+phpthumb
+========
+
+Magento PhpThumb Integration
