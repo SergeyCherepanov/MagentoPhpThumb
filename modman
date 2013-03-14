@@ -1,2 +1,3 @@
 # Comments are supported, begin a line with a hash
-src/*    src   
+src/app/etc/modules/Mx_Phpthumb.xml    app/etc/modules/Mx_Phpthumb.xml
+src/app/code/local/Mx/Phpthumb/*       app/code/local/Mx/Phpthumb
