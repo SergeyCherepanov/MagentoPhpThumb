@@ -2,8 +2,8 @@
 <config>
     <modules>
         <Mx_Phpthumb>
-            <active>true</active>
-            <codePool>local</codePool>
+            <version>1.0.0</version>
         </Mx_Phpthumb>
     </modules>
 </config>
+
