@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mx_PhpThumb>
+            <version>1.0.0</version>
+        </Mx_PhpThumb>
+    </modules>
+    <global>
+        <models>
+            <phpthumb>
+                <class>Mx_PhpThumb_Model</class>
+            </phpthumb>
+            <catalog>
+                <rewrite>
+                    <product_image>Mx_PhpThumb_Model_Product_Image</product_image>
+                </rewrite>
+            </catalog>
+        </models>
+        <helpers>
+            <phpthumb>
+                <class>Mx_PhpThumb_Helper</class>
+            </phpthumb>
+        </helpers>
+    </global>
+    <default>
+        <design>
+            <image>
+                <product_resize_method>default</product_resize_method>
+            </image>
+        </design>
+    </default>
+</config>
+

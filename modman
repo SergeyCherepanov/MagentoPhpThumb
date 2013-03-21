@@ -1,3 +1,4 @@
 # Comments are supported, begin a line with a hash
-src/app/etc/modules/Mx_Phpthumb.xml    app/etc/modules/Mx_Phpthumb.xml
-src/app/code/local/Mx/Phpthumb/*       app/code/local/Mx/Phpthumb
+src/app/etc/modules/Mx_PhpThumb.xml    app/etc/modules/Mx_PhpThumb.xml
+src/app/code/local/Mx/PhpThumb/*       app/code/local/Mx/PhpThumb
+src/lib/PhpThumb/*                     lib/PhpThumb

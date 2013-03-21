@@ -100,14 +100,13 @@ abstract class PhpThumb_ThumbBase
      */
     public function __construct ($fileName, $isDataStream = false)
     {
-        $this->imported	= array();
-        $this->importedFunctions	= array();
-        $this->errorMessage	= null;
-        $this->hasError	= false;
-        $this->fileName	= $fileName;
-        $this->remoteImage	= false;
-        $this->isDataStream	= $isDataStream;
-
+        $this->imported          = array();
+        $this->importedFunctions = array();
+        $this->errorMessage      = null;
+        $this->hasError          = false;
+        $this->fileName          = $fileName;
+        $this->remoteImage       = false;
+        $this->isDataStream      = $isDataStream;
         $this->fileExistsAndReadable();
     }
 
@@ -118,8 +117,7 @@ abstract class PhpThumb_ThumbBase
      */
     public function importPlugins ($registry)
     {
-        foreach ($registry as $plugin => $meta)
-        {
+        foreach ($registry as $plugin => $meta) {
             $this->imports($plugin);
         }
     }
@@ -137,7 +135,7 @@ abstract class PhpThumb_ThumbBase
         // the new object to import
         $newImport = new $object();
         // the name of the new object (class name)
-        $importName	= get_class($newImport);
+        $importName    = get_class($newImport);
         // the new functions to import
         $importFunctions = get_class_methods($newImport);
 
@@ -185,7 +183,7 @@ abstract class PhpThumb_ThumbBase
     protected function triggerError ($errorMessage)
     {
         $this->hasError     = true;
-        $this->errorMessage	= $errorMessage;
+        $this->errorMessage = $errorMessage;
 
         throw new PhpThumb_Exception($errorMessage);
     }
