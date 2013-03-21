@@ -8,9 +8,9 @@ Provide additional functionality for image generation.
 ### Screenshots
 Configuration:
 ![System Configuration](https://raw.github.com/SergeyCherepanov/phpthumb/master/doc/configuration.png)
-Crop method:
-![Resize Method Crop](https://raw.github.com/SergeyCherepanov/phpthumb/master/doc/method-crop.png)
-Fit method:
-![Resize Method Fit](https://raw.github.com/SergeyCherepanov/phpthumb/master/doc/method-fit.png)
+Crop method:  
+![Resize Method Crop](https://raw.github.com/SergeyCherepanov/phpthumb/master/doc/method-crop.png)  
+Fit method:  
+![Resize Method Fit](https://raw.github.com/SergeyCherepanov/phpthumb/master/doc/method-fit.png)  
 
 
