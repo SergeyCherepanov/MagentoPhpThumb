@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <modules>
-        <Mx_Phpthumb>
-            <version>1.0.0</version>
-        </Mx_Phpthumb>
-    </modules>
-</config>
-
