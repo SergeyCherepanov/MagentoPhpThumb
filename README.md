@@ -7,10 +7,10 @@ Provide additional functionality for image generation.
 
 ### Screenshots
 #### Configuration:
-![System Configuration](https://raw.github.com/SergeyCherepanov/phpthumb/master/doc/configuration.png)
+![System Configuration](https://raw.github.com/SergeyCherepanov/MagentoPhpThumb/master/doc/configuration.png)
 #### Crop method:  
-![Resize Method Crop](https://raw.github.com/SergeyCherepanov/phpthumb/master/doc/method-crop.png)  
+![Resize Method Crop](https://raw.github.com/SergeyCherepanov/MagentoPhpThumb/master/doc/method-crop.png)  
 #### Fit method:  
-![Resize Method Fit](https://raw.github.com/SergeyCherepanov/phpthumb/master/doc/method-fit.png)  
+![Resize Method Fit](https://raw.github.com/SergeyCherepanov/MagentoPhpThumb/master/doc/method-fit.png)  
 
 
